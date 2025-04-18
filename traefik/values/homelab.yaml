@@ -6,9 +6,8 @@ additionalArguments:
   - "--serversTransport.insecureSkipVerify=true"
   - "--log.level=INFO"
 
-api:
-  dashboard: true
-  insecure: false
+dashboard:
+  enabled: true
 
 deployment:
   enabled: true
