@@ -6,6 +6,10 @@ additionalArguments:
   - "--serversTransport.insecureSkipVerify=true"
   - "--log.level=INFO"
 
+api:
+  dashboard: true
+  insecure: false
+
 deployment:
   enabled: true
   replicas: 3
