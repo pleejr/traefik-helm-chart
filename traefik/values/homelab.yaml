@@ -20,7 +20,7 @@ deployment:
 ports:
   web:
     redirections:
-      entryPoint: {}
+      port: websecure
   websecure:
     tls:
       enabled: true
