@@ -1,3 +1,6 @@
+api:
+  insecure: true
+
 globalArguments:
   - "--global.sendanonymoususage=false"
   - "--global.checknewversion=false"
